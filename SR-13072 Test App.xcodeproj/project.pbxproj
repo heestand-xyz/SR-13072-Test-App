@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,7 @@
 		F0AF271124A4E01A005ED930 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AF271024A4E01A005ED930 /* ContentView.swift */; };
 		F0AF271324A4E01B005ED930 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0AF271224A4E01B005ED930 /* Assets.xcassets */; };
 		F0AF271624A4E01B005ED930 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0AF271524A4E01B005ED930 /* Preview Assets.xcassets */; };
+		F0AF271F24A4E091005ED930 /* SR-13072 in Frameworks */ = {isa = PBXBuildFile; productRef = F0AF271E24A4E091005ED930 /* SR-13072 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0AF271F24A4E091005ED930 /* SR-13072 in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +87,9 @@
 			dependencies = (
 			);
 			name = "SR-13072 Test App";
+			packageProductDependencies = (
+				F0AF271E24A4E091005ED930 /* SR-13072 */,
+			);
 			productName = "SR-13072 Test App";
 			productReference = F0AF270B24A4E01A005ED930 /* SR-13072 Test App.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +117,9 @@
 				Base,
 			);
 			mainGroup = F0AF270224A4E01A005ED930;
+			packageReferences = (
+				F0AF271D24A4E091005ED930 /* XCRemoteSwiftPackageReference "SR-13072" */,
+			);
 			productRefGroup = F0AF270C24A4E01A005ED930 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -328,6 +336,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F0AF271D24A4E091005ED930 /* XCRemoteSwiftPackageReference "SR-13072" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hexagons/SR-13072";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F0AF271E24A4E091005ED930 /* SR-13072 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F0AF271D24A4E091005ED930 /* XCRemoteSwiftPackageReference "SR-13072" */;
+			productName = "SR-13072";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F0AF270324A4E01A005ED930 /* Project object */;
 }

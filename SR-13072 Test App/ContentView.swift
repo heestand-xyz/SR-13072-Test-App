@@ -6,10 +6,11 @@
 //
 
 import SwiftUI
+import SR_13072
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!").padding()
+        Text(SR_13072.text).padding()
     }
 }
 

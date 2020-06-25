@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "SR-13072",
+        "repositoryURL": "https://github.com/hexagons/SR-13072",
+        "state": {
+          "branch": null,
+          "revision": "4e59445df153b15dbe80e7f6dac474d6f2a8b6af",
+          "version": "0.0.2"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
